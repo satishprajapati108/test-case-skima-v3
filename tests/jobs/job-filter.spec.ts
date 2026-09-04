@@ -3,7 +3,7 @@ import { Label, statusMap } from '../../pages/jobs/jobs-filter.page';
 
 test.describe('jobs filter', () => {
 
-    test('Should be able to search Job', async ({jobFilterPage: jobFilterObj})=>{
+    test('Should be able to search Job', async ({ jobFilterPage: jobFilterObj }) => {
         const searchJob = 'bmw';
         await jobFilterObj.searchJob(searchJob);
     })
@@ -32,7 +32,8 @@ test.describe('jobs filter', () => {
     })
 
     test('should be able to filter jobs by isPublished', async ({ jobFilterPage: jobFilterObj }) => {
-        await jobFilterObj.filterByIsPublished();
+        const isPublishedFilterOptionsList = ['Yes', 'No'];
+        await jobFilterObj.filterByIsPublished(isPublishedFilterOptionsList);
 
     })
 
@@ -68,7 +69,7 @@ test.describe('jobs filter', () => {
 
     test('should be able to filter jobs by Hiring Manager', async ({ jobFilterPage: jobFilterObj }) => {
 
-        const HiringManagerName = 'Ajay singh'; 
+        const HiringManagerName = 'Ajay singh';
         await jobFilterObj.filterByHiringManager(HiringManagerName);
 
     })

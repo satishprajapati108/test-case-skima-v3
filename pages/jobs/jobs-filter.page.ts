@@ -11,8 +11,6 @@ export const statusMap: Record<Label, string> = {
 
 }
 
-const isPublishedFilterOptionsList = ['Yes', 'No'];
-
 export class JobsFilterPage extends BasePage {
 
     //Search Job Locater
@@ -69,7 +67,7 @@ export class JobsFilterPage extends BasePage {
         await this.search.fill(jobName);
         await this.page.waitForTimeout(4000);
         const searchRecords = await this.searchJobResultTable.first().isVisible().catch(() => false);
-        if(!searchRecords){
+        if (!searchRecords) {
             console.warn("No job Found with search result")
         }
         console.log(searchRecords);
@@ -126,7 +124,9 @@ export class JobsFilterPage extends BasePage {
     }
 
 
-    async filterByIsPublished() {
+    async filterByIsPublished(isPublishedOp: string[]) {
+
+        const isPublishedFilterOptionsList = isPublishedOp;
 
         for (const option of isPublishedFilterOptionsList) {
             await this.openIsPublishedFilter();
