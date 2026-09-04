@@ -459,6 +459,10 @@ console.log(
   adults
 );
 
+const strings = x.filter((item) => {
+  typeof item === 'string'
+});
+
 
 // Result:
 // [18, 25, 30, 40]

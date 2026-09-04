@@ -15,6 +15,10 @@ const isPublishedFilterOptionsList = ['Yes', 'No'];
 
 export class JobsFilterPage extends BasePage {
 
+    //Search Job Locater
+    readonly search = this.page.getByTestId('jobs-search-input');
+    readonly searchJobResultTable = this.page.getByTestId('jobs-table-row');
+
     //Switch tab Locater
     readonly all = this.page.getByTestId('jobs-segment-tab-all');
     readonly draft = this.page.getByTestId('jobs-segment-tab-draft');
@@ -41,10 +45,35 @@ export class JobsFilterPage extends BasePage {
     readonly clientSearchInput = this.page.getByTestId('jobs-filter-client-trigger-search');
     readonly clientListOption = this.page.getByRole('option');
     readonly clientApplyButton = this.page.getByTestId('jobs-filter-client-trigger-apply');
-    readonly removeFilterIcon = this.page.getByTestId('');
+    readonly removeFilterIcon = this.page.getByTestId('jobs-filter-ats-status-trigger-clear');
+
+    //Location Locater
+    readonly locationFilterOpen = this.page.getByTestId('jobs-filter-location-trigger');
+    readonly locationSearchInput = this.page.getByTestId('jobs-filter-location-trigger-search');
+    readonly locationListOption = this.page.getByRole('option');
+    readonly locationApplyButton = this.page.getByTestId('jobs-filter-location-trigger-apply');
+
+    //More Filter
+    readonly moreFilter = this.page.getByTestId('jobs-filter-trigger-button');
+    readonly deletedJobtoggel = this.page.getByTestId('jobs-filter-show-deleted-toggle');
+    readonly HiringTeam = this.page.getByTestId('jobs-filter-hiring-team-select-input');
+    readonly createdStartDate = this.page.getByTestId('jobs-filter-created-at-start-date');
+    readonly createdEndDate = this.page.getByTestId('jobs-filter-created-at-end-date');
+    readonly clearAllFilter = this.page.getByTestId('jobs-filter-clear-all-button');
+    readonly applyMoreFilterButton = this.page.getByTestId('jobs-filter-apply-button');
+    readonly canelButton = this.page.getByTestId('jobs-filter-cancel-button');
 
 
-    
+    //Search Job Logic 
+    async searchJob(jobName: string) {
+        await this.search.fill(jobName);
+        await this.page.waitForTimeout(4000);
+        const searchRecords = await this.searchJobResultTable.first().isVisible().catch(() => false);
+        if(!searchRecords){
+            console.warn("No job Found with search result")
+        }
+        console.log(searchRecords);
+    }
 
 
     //Switch tab Logic
@@ -147,7 +176,7 @@ export class JobsFilterPage extends BasePage {
 
     async searchClient(clientName: string) {
         const count = await this.getClientFilterOptions();
-        if(count.length === 0){
+        if (count.length === 0) {
             console.warn('No client filter options available. Skipping the search.');
             return [];
         }
@@ -160,6 +189,68 @@ export class JobsFilterPage extends BasePage {
         await this.clientApplyButton.click();
 
     }
+
+    //Location Filter Logic
+
+    async openLocationFilter() {
+        await this.locationFilterOpen.click();
+    }
+
+    async filterByLocation(locationName: string[]) {
+        await this.openLocationFilter();
+
+        for (const location of locationName) {
+            await this.locationSearchInput.fill(location);
+            await this.locationListOption.getByText(location).click();
+        }
+        await this.locationApplyButton.click();
+    }
+
+
+    // -----------------------------MORE FILTER-----------------------------------------
+
+    async openMoreFilter() {
+        await this.moreFilter.click();
+    }
+
+    async clearFilter() {
+        // await this.openMoreFilter();
+        await this.clearAllFilter.click();
+    }
+
+    //Deleted Filter logic
+    async applyDeletedJObFilter() {
+        await this.openMoreFilter();
+        await this.deletedJobtoggel.click();
+        await this.applyMoreFilterButton.click();
+
+    }
+
+    //Hiring manager Filter
+    async filterByHiringManager(HiringManager: string) {
+        await this.openMoreFilter();
+        await this.clearFilter();
+        await this.HiringTeam.fill(HiringManager);
+        await this.HiringTeam.press('Enter');
+
+        await this.applyMoreFilterButton.click();
+    }
+
+    //Created At Filter
+    async filterByCreatedAt(StartDate: string, EndDate: string) {
+        await this.openMoreFilter();
+        await this.clearFilter();
+
+        await this.createdStartDate.fill(StartDate);
+        await this.createdEndDate.fill(EndDate);
+        await this.createdEndDate.press('Enter');
+
+        await this.applyMoreFilterButton.click();
+
+
+    }
+
+
 
 
 }
