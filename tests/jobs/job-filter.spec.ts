@@ -13,7 +13,7 @@ test.describe('jobs filter', () => {
         const labels: Label[] = ['All', 'Draft', 'NeedSetup', 'ScoringOn'];
 
         for (const label of labels) {
-            await jobFilterObj.switchTotab(label);
+            await jobFilterObj.switchToTab(label);
             const param = statusMap[label];
             const expectedUrl = param
                 ? `${new URL(page.url()).origin}/jobs?by_status=${param}`
@@ -53,7 +53,7 @@ test.describe('jobs filter', () => {
     })
 
     test('should be able to filter jobs by client', async ({ jobFilterPage: jobFilterObj }) => {
-        await jobFilterObj.filterbyClient('Janes Street');
+        await jobFilterObj.filterByClient('Janes Street');
 
     })
 

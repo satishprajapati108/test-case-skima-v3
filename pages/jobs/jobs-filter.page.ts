@@ -54,12 +54,12 @@ export class JobsFilterPage extends BasePage {
     //More Filter
     readonly moreFilter = this.page.getByTestId('jobs-filter-trigger-button');
     readonly deletedJobtoggel = this.page.getByTestId('jobs-filter-show-deleted-toggle');
-    readonly HiringTeam = this.page.getByTestId('jobs-filter-hiring-team-select-input');
+    readonly hiringTeam = this.page.getByTestId('jobs-filter-hiring-team-select-input');
     readonly createdStartDate = this.page.getByTestId('jobs-filter-created-at-start-date');
     readonly createdEndDate = this.page.getByTestId('jobs-filter-created-at-end-date');
     readonly clearAllFilter = this.page.getByTestId('jobs-filter-clear-all-button');
     readonly applyMoreFilterButton = this.page.getByTestId('jobs-filter-apply-button');
-    readonly canelButton = this.page.getByTestId('jobs-filter-cancel-button');
+    readonly cancelButton = this.page.getByTestId('jobs-filter-cancel-button');
 
 
     //Search Job Logic 
@@ -82,7 +82,7 @@ export class JobsFilterPage extends BasePage {
         ScoringOn: this.scoringOn,
     }
 
-    async switchTotab(label: Label) {
+    async switchToTab(label: Label) {
         await this.tabmap[label].click();
     }
 
@@ -183,7 +183,7 @@ export class JobsFilterPage extends BasePage {
         await this.clientSearchInput.fill(clientName);
     }
 
-    async filterbyClient(clientName: string) {
+    async filterByClient(clientName: string) {
         await this.searchClient(clientName);
         await this.clientListOption.getByText(clientName, { exact: true }).click();
         await this.clientApplyButton.click();
@@ -227,22 +227,22 @@ export class JobsFilterPage extends BasePage {
     }
 
     //Hiring manager Filter
-    async filterByHiringManager(HiringManager: string) {
+    async filterByHiringManager(hiringManager: string) {
         await this.openMoreFilter();
         await this.clearFilter();
-        await this.HiringTeam.fill(HiringManager);
-        await this.HiringTeam.press('Enter');
+        await this.hiringTeam.fill(hiringManager);
+        await this.hiringTeam.press('Enter');
 
         await this.applyMoreFilterButton.click();
     }
 
     //Created At Filter
-    async filterByCreatedAt(StartDate: string, EndDate: string) {
+    async filterByCreatedAt(startDate: string, endDate: string) {
         await this.openMoreFilter();
         await this.clearFilter();
 
-        await this.createdStartDate.fill(StartDate);
-        await this.createdEndDate.fill(EndDate);
+        await this.createdStartDate.fill(startDate);
+        await this.createdEndDate.fill(endDate);
         await this.createdEndDate.press('Enter');
 
         await this.applyMoreFilterButton.click();
