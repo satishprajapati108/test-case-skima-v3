@@ -46,8 +46,8 @@ export async function ensureManualSession(config: AppConfig): Promise<string> {
   // half wrong-looking) and defeats the point of "manual means both fields
   // are yours to fill in".
   if (hasBothCredentials) {
-    await loginPage.emailInput.pressSequentially(config.username);
-    await loginPage.passwordInput.pressSequentially(config.password);
+    await loginPage.emailInput.fill(config.username);
+    await loginPage.passwordInput.fill(config.password);
   }
 
   if (hasBothCredentials) {
