@@ -1,4 +1,4 @@
-import { Locator } from 'playwright';
+import { Locator } from 'playwright/test';
 import { BasePage } from '../base.page';
 
 export type Label = 'All' | 'Draft' | 'NeedSetup' | 'ScoringOn';
@@ -124,15 +124,10 @@ export class JobsFilterPage extends BasePage {
     }
 
 
-    async filterByIsPublished(isPublishedOp: string[]) {
-
-        const isPublishedFilterOptionsList = isPublishedOp;
-
-        for (const option of isPublishedFilterOptionsList) {
-            await this.openIsPublishedFilter();
-            await this.isPublishedFilterOptions.getByText(option, { exact: true }).click();
-            await this.isPublishedApplyButton.click();
-        }
+    async filterByIsPublished(option: string) {
+        await this.openIsPublishedFilter();
+        await this.isPublishedFilterOptions.getByText(option, { exact: true }).click();
+        await this.isPublishedApplyButton.click();
 
     }
 
@@ -185,7 +180,7 @@ export class JobsFilterPage extends BasePage {
 
     async filterByClient(clientName: string) {
         await this.searchClient(clientName);
-        await this.clientListOption.getByText(clientName, { exact: true }).click();
+        await this.clientListOption.getByText(clientName, { exact: false }).click();
         await this.clientApplyButton.click();
 
     }
@@ -246,8 +241,6 @@ export class JobsFilterPage extends BasePage {
         await this.createdEndDate.press('Enter');
 
         await this.applyMoreFilterButton.click();
-
-
     }
 
 
