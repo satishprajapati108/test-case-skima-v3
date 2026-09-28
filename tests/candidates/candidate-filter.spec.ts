@@ -39,10 +39,15 @@ test.describe('Candidate Filter', () => {
         for (let tab of subTab){
             await candidateFilterPage.underAllTabSwitch(tab);
 
-            const rows = await page.getByTestId('candidates-row-name-button');
+            const rows = page.getByTestId('candidates-row-name-button');
+            
+            await rows.first().waitFor({state:'visible', timeout:2000}).catch(() =>{
+                console.log('No Rows Found');
+            })
+
             const count = await rows.count();
 
-            console.log("number of rows : ", count);
+            console.log(`${tab} rows :  ${count}`);
 
         }
         
