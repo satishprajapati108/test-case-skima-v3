@@ -1,5 +1,5 @@
 import { test, expect } from '../../fixtures/index.fixture';
-import { topHeaderTab } from '../../pages/candidates/candidate-filter.page';
+import { subTab, topHeaderTab } from '../../pages/candidates/candidate-filter.page';
 
 test.describe('Candidate Filter', () => {
     //ALL CANDIDATES FILTER TEST
@@ -31,9 +31,23 @@ test.describe('Candidate Filter', () => {
             }
         }
     })
+                           
+    test('Switch Tab Under All tab section ', async ({ page, candidateFilterPage }) => {
 
-    test('', async ()=> {
+        const subTab : subTab[] = ['All', 'Linked', 'Unlinked'];
+
+        for (let tab of subTab){
+            await candidateFilterPage.underAllTabSwitch(tab);
+
+            const rows = await page.getByTestId('candidates-row-name-button');
+            const count = await rows.count();
+
+            console.log("number of rows : ", count);
+
+        }
         
     })
+
+   
 
 })

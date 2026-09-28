@@ -2,6 +2,8 @@ import { Locator } from "@playwright/test";
 import { BasePage } from "../base.page";
 
 export type topHeaderTab = 'AllCandidate' | 'Duplicates' | 'Incomplete' | 'Uploadbatches';
+export type subTab = "All" | "Linked" | "Unlinked";
+
 
 export class CandidateFilterPage extends BasePage {
 
@@ -12,7 +14,7 @@ export class CandidateFilterPage extends BasePage {
     readonly uploadBatchTab = this.page.getByTestId('candidates-page-tab-uploads')
 
     //Under All Candidate Tab Filter locater
-    readonly candidateSearchInput = this.page.getByTestId('');
+    readonly candidateSearchInput = this.page.getByTestId('candidates-search-input');
 
     readonly allTab = this.page.getByTestId('candidates-tab-all');
     readonly linkedTab = this.page.getByTestId('candidates-tab-linked');
@@ -41,6 +43,10 @@ export class CandidateFilterPage extends BasePage {
     readonly sourceDropdown = this.page.getByTestId('');
 
 
+
+    // ----------------------------------Logic--------------------------------------------
+
+
     //Top Tab Switching Logic
     private readonly tabsMap: Record<topHeaderTab, Locator> = {
         AllCandidate: this.allCandidateTab,
@@ -51,6 +57,21 @@ export class CandidateFilterPage extends BasePage {
 
     async switchTopTabs(Tab: topHeaderTab) {
         await this.tabsMap[Tab].click();
+    }
+
+
+    //Under all Tab Section 
+
+    //Switch subFilter under ALL section
+    private readonly allSubTabMaps: Record<subTab, Locator> ={
+        All : this.allTab,
+        Linked: this.linkedTab,
+        Unlinked: this.unLinkedTab
+
+    }
+
+    async underAllTabSwitch(Tab : subTab){
+        await this.allSubTabMaps[Tab].click();
     }
 
 
