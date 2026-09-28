@@ -20,6 +20,7 @@ export default defineConfig({
     baseURL: process.env.BASE_URL,
     trace: "on-first-retry",
     screenshot: "only-on-failure",
+    headless: false,
   },
 
   projects: [
