@@ -21,8 +21,18 @@ export class CandidateFilterPage extends BasePage {
     readonly unLinkedTab = this.page.getByTestId('candidates-tab-unlinked');
 
     readonly entryChannelDropdown = this.page.getByTestId('candidates-filter-entry-channel-trigger');
+    readonly entryChannelDropdownPanel = this.page.getByTestId('candidates-filter-entry-channel-trigger-panel');
+    readonly applyEntryChannelDropdownBtn = this.page.getByTestId('candidates-filter-entry-channel-trigger-apply');
+
     readonly visibiltyDropdown = this.page.getByTestId('candidates-filter-visibility-trigger');
+    readonly visibiltyDropdownPanel = this.page.getByTestId('candidates-filter-visibility-trigger-panel');
+    readonly applyvisibiltyDropdownBtn = this.page.getByTestId('candidates-filter-visibility-trigger-apply');
+
+
     readonly locationDropdown = this.page.getByTestId('candidates-filter-location-trigger');
+    readonly locationDropdownPanel = this.page.getByTestId('candidates-filter-location-trigger-panel');
+    readonly locationDropdownSearch = this.page.getByTestId('candidates-filter-location-trigger-search');
+    readonly locationDropdownApplyBtn = this.page.getByTestId('candidates-filter-location-trigger-apply');
 
 
     //Under Duplicates Tab Filter locater
@@ -74,6 +84,57 @@ export class CandidateFilterPage extends BasePage {
         await this.allSubTabMaps[Tab].click();
     }
 
+    // Entry Channel DropDown Filter
+    async openEntryChannelDropdownPanel(){
+        await this.entryChannelDropdown.click();
+    }
+
+    async selectEntryChanneloption(option:string){
+        await this.entryChannelDropdownPanel.getByText(option, { exact: true }).click();
+    }
+
+    async applyEntryChannelFilter(option:string){
+        await this.openEntryChannelDropdownPanel();
+        await this.selectEntryChanneloption(option);
+        await this.applyEntryChannelDropdownBtn.click();
+    }
+
+    // Visibility DropDown Filter
+    async openVisibilityDropDownPanel(){
+        await this.visibiltyDropdown.click();
+    }
+
+    async selectVisibiltyDropDownOption(option:string){
+        await this.visibiltyDropdownPanel.getByText(option, {exact:true}).click();
+
+    }
+
+    async applyVisibilityDropdownFilter(option:string){
+        await this.openVisibilityDropDownPanel();
+        await this.selectVisibiltyDropDownOption(option);
+        await this.applyvisibiltyDropdownBtn.click();
+
+    }
+
+    // Location DropDown Filter
+    async openLocationDropdown(){
+        await this.locationDropdown.click();
+    }
+
+    async selectLocationOptions(options:string[]){
+
+        for(let option of options){
+            await this.locationDropdownSearch.fill(option);
+            await this.locationDropdownPanel.getByText(option, {exact: false}).click();
+        }
+        
+    }
+
+    async applyLocationFilter(options:string[]){
+        await this.openLocationDropdown();
+        await this.selectLocationOptions(options);
+        await this.locationDropdownApplyBtn.click();
+    }
 
 
 
