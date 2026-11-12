@@ -1,0 +1,2258 @@
+{
+ "Personal Information": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Personal Information | Hey!! We w"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Title * | Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "3",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "4",
+   "id": "4",
+   "txt": "",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "5",
+   "id": "5",
+   "txt": "",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "6",
+   "id": "6",
+   "txt": "",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Select date",
+   "name": "7",
+   "id": "7",
+   "txt": "",
+   "label": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "8",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "9",
+   "id": "9",
+   "txt": "",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "10",
+   "id": "10",
+   "txt": "",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "11",
+   "id": "11",
+   "txt": "",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "12",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "13",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "14",
+   "id": "14",
+   "txt": "",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "15",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "16",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "17",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "18",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "email",
+   "role": "",
+   "ph": "Type your email here",
+   "name": "19",
+   "id": "19",
+   "txt": "",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Disabled * | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":rb:",
+   "id": "",
+   "txt": "",
+   "label": "Disabled * | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":rb:",
+   "id": "",
+   "txt": "",
+   "label": "Disabled * | Yes | No"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Have you worked outside India before? | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":rc:",
+   "id": "",
+   "txt": "",
+   "label": "Have you worked outside India before? | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":rc:",
+   "id": "",
+   "txt": "",
+   "label": "Have you worked outside India before? | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":rd:",
+   "id": "",
+   "txt": "",
+   "label": "Father | Husband"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":rd:",
+   "id": "",
+   "txt": "",
+   "label": "Father | Husband"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Title * | Select Option | First Name * | Middle Name | Las"
+  }
+ ],
+ "Photo Upload": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Photo Upload | Image files should"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload your recent photograph * | Upload Files |  | .PNG"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PNG, .JPG, .JPEG, .WEBP, .PDF (maxi"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Upload your recent photograph * | Upload Files |  | .PNG"
+  }
+ ],
+ "Marital Status": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Marital Status"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "22",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Marital Status * | Select Option | Save & Continue"
+  }
+ ],
+ "Passport Details": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Passport Details | Make a journey"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":rl:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":rl:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Do you have a Passport? * | Yes | No | Save & Continue"
+  }
+ ],
+ "Driving Licence": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Driving Licence"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "30",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Do you have a driver's license? * | Select Option | Sa"
+  }
+ ],
+ "Current Address": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Current Address | Let's be in con"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Select date",
+   "name": "53",
+   "id": "53",
+   "txt": "",
+   "label": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Select date",
+   "name": "54",
+   "id": "54",
+   "txt": "",
+   "label": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "55",
+   "id": "55",
+   "txt": "",
+   "label": "Stay From * | Stay To | House No/Building/Floor * | Area"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "56",
+   "id": "56",
+   "txt": "",
+   "label": "Stay From * | Stay To | House No/Building/Floor * | Area"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "57",
+   "id": "57",
+   "txt": "",
+   "label": "Stay From * | Stay To | House No/Building/Floor * | Area"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "58",
+   "txt": "",
+   "label": "India"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "59",
+   "txt": "",
+   "label": "Maharashtra"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "60",
+   "txt": "",
+   "label": "Pune"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "61",
+   "id": "61",
+   "txt": "",
+   "label": "Stay From * | Stay To | House No/Building/Floor * | Area"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "62",
+   "id": "62",
+   "txt": "",
+   "label": "Stay From * | Stay To | House No/Building/Floor * | Area"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r10:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r10:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Stay From * | Stay To | House No/Building/Floor * | Area"
+  }
+ ],
+ "Academic Qualifications": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Academic Qualifications | Dear Pr"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "EDUCATION_DETAILS | Add more |  | None added yet. |  | Add m"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "EDUCATION_DETAILS | Add more |  | None added yet. |  | Add m"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "EDUCATION_DETAILS | Add more |  | None added yet. |  | Add m"
+  }
+ ],
+ "Language Skills": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Language Skills | Language is the"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "LANGUAGE_SKILLS | Add more |  | None added yet. |  | Add mor"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "LANGUAGE_SKILLS | Add more |  | None added yet. |  | Add mor"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "LANGUAGE_SKILLS | Add more |  | None added yet. |  | Add mor"
+  }
+ ],
+ "Core Skills": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Core Skills | Your Core Strength "
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "CORE_SKILLS | Add more |  | None added yet. |  | Add more"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "CORE_SKILLS | Add more |  | None added yet. |  | Add more"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "CORE_SKILLS | Add more |  | None added yet. |  | Add more | Sa"
+  }
+ ],
+ "Other courses undertaken": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Other courses undertaken |  | Your "
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "OTHER_COURSES | Add more |  | None added yet. |  | Add more"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "OTHER_COURSES | Add more |  | None added yet. |  | Add more"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "OTHER_COURSES | Add more |  | None added yet. |  | Add more | "
+  }
+ ],
+ "Certification Courses Undertaken": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Certification Courses Undertake"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Do you have any Certifications? * | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1b:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1b:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Do you have any Certifications? * | Yes | No | Save & Co"
+  }
+ ],
+ "Identification Details": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Identification Details | Your ide"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Pan No *"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "114",
+   "id": "114",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "115",
+   "id": "115",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Aadhaar No *"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "116",
+   "id": "116",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "117",
+   "id": "117",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "118",
+   "id": "118",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "119",
+   "id": "119",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "120",
+   "id": "120",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "121",
+   "id": "121",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Election Card"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "122",
+   "id": "122",
+   "txt": "",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Ration Card | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1e:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1e:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "National Population Register | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1f:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1f:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Pan No * | Name as per Pan * | Aadhaar No * | Name as pe"
+  }
+ ],
+ "Previous Employers": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Previous Employers | Summarized e"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1i:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1i:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "PREVIOUS_EMPLOYMENT | Add more |  | None added yet. |  | Add"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Add more",
+   "label": "PREVIOUS_EMPLOYMENT | Add more |  | None added yet. |  | Add"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Do you have Prior Work Experience * | Yes | No | PREVIOU"
+  }
+ ],
+ "References if any": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | References if any | Your esteemed"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "126",
+   "id": "126",
+   "txt": "",
+   "label": "Referrer Name * | Company / College Name * | Designati"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "127",
+   "id": "127",
+   "txt": "",
+   "label": "Referrer Name * | Company / College Name * | Designati"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "128",
+   "id": "128",
+   "txt": "",
+   "label": "Referrer Name * | Company / College Name * | Designati"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "129",
+   "id": "129",
+   "txt": "",
+   "label": "Referrer Name * | Company / College Name * | Designati"
+  },
+  {
+   "tag": "TEXTAREA",
+   "type": "textarea",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "130",
+   "id": "130",
+   "txt": "",
+   "label": "Referrer Name * | Company / College Name * | Designati"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Referrer Name * | Company / College Name * | Designati"
+  }
+ ],
+ "Emergency Contact": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Emergency Contact | Emergency usa"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "91",
+   "id": "91",
+   "txt": "",
+   "label": "Name * | Relationship * | Landline Number | Mobile Numbe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "92",
+   "id": "92",
+   "txt": "",
+   "label": "Name * | Relationship * | Landline Number | Mobile Numbe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "93",
+   "id": "93",
+   "txt": "",
+   "label": "Name * | Relationship * | Landline Number | Mobile Numbe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "94",
+   "id": "94",
+   "txt": "",
+   "label": "Name * | Relationship * | Landline Number | Mobile Numbe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "95",
+   "id": "95",
+   "txt": "",
+   "label": "Name * | Relationship * | Landline Number | Mobile Numbe"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "96",
+   "id": "96",
+   "txt": "",
+   "label": "Name * | Relationship * | Landline Number | Mobile Numbe"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Name * | Relationship * | Landline Number | Mobile Numbe"
+  }
+ ],
+ "Medical Data": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Medical Data | Please take a mome"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "32",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "33",
+   "id": "33",
+   "txt": "",
+   "label": "Blood Group * | Select Option | Eye Power Right | Eye Po"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "34",
+   "id": "34",
+   "txt": "",
+   "label": "Blood Group * | Select Option | Eye Power Right | Eye Po"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "35",
+   "id": "35",
+   "txt": "",
+   "label": "Blood Group * | Select Option | Eye Power Right | Eye Po"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "36",
+   "id": "36",
+   "txt": "",
+   "label": "Blood Group * | Select Option | Eye Power Right | Eye Po"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "37",
+   "id": "37",
+   "txt": "",
+   "label": "Blood Group * | Select Option | Eye Power Right | Eye Po"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "38",
+   "id": "38",
+   "txt": "",
+   "label": "Blood Group * | Select Option | Eye Power Right | Eye Po"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Blood Group * | Select Option | Eye Power Right | Eye Po"
+  }
+ ],
+ "Achievements": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Achievements | Take pride in how "
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1s:",
+   "id": "",
+   "txt": "",
+   "label": "Achievement Applicable * | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1s:",
+   "id": "",
+   "txt": "",
+   "label": "Achievement Applicable * | Yes | No"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Achievement Applicable * | Yes | No | Save & Continue"
+  }
+ ],
+ "Compliance & Disclosures": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Compliance & Disclosures"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1v:",
+   "id": "",
+   "txt": "",
+   "label": "Are you a member of any social, cultural, politica"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r1v:",
+   "id": "",
+   "txt": "",
+   "label": "Are you a member of any social, cultural, politica"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r20:",
+   "id": "",
+   "txt": "",
+   "label": "Has any legal (civil/criminal/family) case been de"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r20:",
+   "id": "",
+   "txt": "",
+   "label": "Has any legal (civil/criminal/family) case been de"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r21:",
+   "id": "",
+   "txt": "",
+   "label": "Have you previously worked at Nykaa? * | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r21:",
+   "id": "",
+   "txt": "",
+   "label": "Have you previously worked at Nykaa? * | Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r22:",
+   "id": "",
+   "txt": "",
+   "label": "Do you currently hold any role - such as Director,"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r22:",
+   "id": "",
+   "txt": "",
+   "label": "Do you currently hold any role - such as Director,"
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "I Agree"
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "I Agree"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Are you a member of any social, cultural, politica"
+  }
+ ],
+ "Identification Details - Linkage": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Identification Details - Linkag"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "235",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "I Agree"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Linkage Type * | Select Option | I hereby declare that"
+  }
+ ],
+ "Relative Information": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Relative Information | • Share de"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r28:",
+   "id": "",
+   "txt": "",
+   "label": "Do you have any relative/vendor currently working "
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r28:",
+   "id": "",
+   "txt": "",
+   "label": "Do you have any relative/vendor currently working "
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Do you have any relative/vendor currently working "
+  }
+ ],
+ "Family / Nominee Details": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Family / Nominee Details | Please"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "39",
+   "id": "39",
+   "txt": "",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  },
+  {
+   "tag": "INPUT",
+   "type": "search",
+   "role": "combobox",
+   "ph": "",
+   "name": "",
+   "id": "40",
+   "txt": "",
+   "label": "Select Option"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Select date",
+   "name": "41",
+   "id": "41",
+   "txt": "",
+   "label": ""
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "42",
+   "id": "42",
+   "txt": "",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "43",
+   "id": "43",
+   "txt": "",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "44",
+   "id": "44",
+   "txt": "",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  },
+  {
+   "tag": "TEXTAREA",
+   "type": "textarea",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "45",
+   "id": "45",
+   "txt": "",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2d:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2d:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "47",
+   "id": "47",
+   "txt": "",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2e:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2e:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "49",
+   "id": "49",
+   "txt": "",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2f:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2f:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2g:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2g:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "52",
+   "id": "52",
+   "txt": "",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Member Name * | Relationship * | Select Option | Date of"
+  }
+ ],
+ "Statutory Form": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Statutory Form | Please share you"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2j:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2j:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2k:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2k:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2l:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2l:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "245",
+   "id": "245",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "246",
+   "id": "246",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2m:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No | Fresher"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2m:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No | Fresher"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2m:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No | Fresher"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "248",
+   "id": "248",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "249",
+   "id": "249",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "250",
+   "id": "250",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "251",
+   "id": "251",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "252",
+   "id": "252",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "253",
+   "id": "253",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2n:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "radio",
+   "role": "",
+   "ph": "",
+   "name": ":r2n:",
+   "id": "",
+   "txt": "",
+   "label": "Yes | No"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "255",
+   "id": "255",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "256",
+   "id": "256",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "257",
+   "id": "257",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "role": "",
+   "ph": "Type your answer here",
+   "name": "258",
+   "id": "258",
+   "txt": "",
+   "label": "Whether earlier member of the Employee's Provident"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Whether earlier member of the Employee's Provident"
+  }
+ ],
+ "Other documents": [
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Back to categories",
+   "label": "Back to categories | Other documents"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Current Address / Residence Proof * | Upload Files |  | "
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPEG, .JPG"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Permanent Address / Residence Proof * | Upload Files"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPEG, .JPG"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Graduation * | Upload Files |  | .PDF, .DOC, .DOCX, .GIF"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPEG, .JPG"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Post Graduation * | Upload Files |  | .PDF, .DOC, .DOCX,"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPEG, .JPG"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "SSC (10th) * | Upload Files |  | .PDF, .DOC, .DOCX, .GIF"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPEG, .JPG"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "HSC (12th) * | Upload Files |  | .PDF, .DOC, .DOCX, .GIF"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPEG, .JPG"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Resignation Acceptance Letter / Mail * | Upload File"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPEG, .JPG"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Statutary Forms (PF / ESI / Nomination documents, "
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Download Statutory Form",
+   "label": "Download your pre-filled Statutory Form below, get"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPEG, .JPG"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Aadhaar Card * | Upload Files |  | .PDF, .DOC, .DOCX, .G"
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPG, .ZIP "
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "1793698021_b6360c632b37_YOGESH BULLET TEST.docx"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "PAN Card * | Upload Files |  | .PDF, .DOC, .DOCX, .GIF, "
+  },
+  {
+   "tag": "INPUT",
+   "type": "file",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "Upload Files |  | .PDF, .DOC, .DOCX, .GIF, .JPG, .ZIP "
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "",
+   "label": "1793697507_053d0b2beaf5_vehicle_registration.gif"
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "role": "",
+   "ph": "",
+   "name": "",
+   "id": "",
+   "txt": "Save & Continue",
+   "label": "Current Address / Residence Proof * | Upload Files |  | "
+  }
+ ]
+}

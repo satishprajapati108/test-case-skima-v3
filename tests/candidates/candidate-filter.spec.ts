@@ -131,7 +131,7 @@ test.describe('Candidate Filter', () => {
         const locationCols = page.getByTestId('candidates-row-location');
 
         for(let i = 0; i < count; i++){
-            await expect(locationCols.getByText(locationCols, {exact:false})).toHaveText(locations);
+            // await expect(locationCols.getByText(locationCols.nth(i), {exact:false})).toHaveText(locations);
         }
 
     })

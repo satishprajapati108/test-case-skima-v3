@@ -1,0 +1,31 @@
+Round 1: 23 sections visible, 23 to fill
+[0] ✓ Marital Status (4.1s) 
+[0] ✓ Current Address (4.8s) 
+[0] ✓ Academic Qualifications (5.0s) 
+[4] ✓ Photo Upload (14.2s) 
+[0] ✓ Language Skills (4.0s) 
+[2] ✓ Achievements (20.2s) 
+[5] ✓ Passport Details (21.1s) 
+[0] ✓ Other courses undertaken (4.5s) 
+[1] ✓ Driving Licence (21.7s) 
+[4] ✓ Core Skills (9.9s) 
+[4] ✓ Emergency Contact (3.6s) 
+[3] ✓ Personal Information (28.2s) 
+[1] ✗ References if any: locator.click: Timeout 8000ms exceeded.
+[2] ✗ Certification Courses Undertaken: locator.click: Timeout 8000ms exceeded.
+[5] ✓ Identification Details (9.8s) 
+[0] ✓ Previous Employers (14.1s) 
+[3] ✗ Compliance & Disclosures: locator.click: Timeout 8000ms exceeded.
+[4] ✓ Medical Data (10.5s) 
+[0] ✓ Statutory Form (3.8s) 
+[5] ✓ Family / Nominee Details (10.0s) 
+[1] ✓ Identification Details - Linkage (11.8s) 
+[2] ✓ Relative Information (16.9s) 
+[3] ✓ Other documents (28.6s) 
+Round 2: 23 sections visible, 3 to fill
+[0] ✓ Certification Courses Undertaken (10.0s) 
+[1] ✓ References if any (18.1s) 
+[2] ✓ Compliance & Disclosures (20.3s) 
+Round 3: 23 sections visible, 0 to fill
+Processed 23 sections
+Sections complete: 23/23

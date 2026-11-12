@@ -1,0 +1,67 @@
+[session] Verified saved session for "default" is still valid (C:\Automation-Script\test-case-skima-v3\.auth\default.session.json)
+
+Running 1 test using 1 worker
+
+[1/1] [chromium] › tests\post-offer\post-offer-docs.spec.ts:13:9 › Post-offer document filling › should be able to fill every visible section and submit the documents
+[chromium] › tests\post-offer\post-offer-docs.spec.ts:13:9 › Post-offer document filling › should be able to fill every visible section and submit the documents
+[session] Verified saved session for "default" is still valid (C:\Automation-Script\test-case-skima-v3\.auth\default.session.json)
+
+Round 1: 23 sections visible, 23 to fill
+
+✓ Marital Status 
+
+✓ Passport Details 
+
+✓ Current Address 
+
+✓ Academic Qualifications 
+
+✓ Language Skills 
+
+✓ Core Skills 
+
+✓ Other courses undertaken 
+
+✓ Certification Courses Undertaken 
+
+✓ Identification Details 
+
+✓ Previous Employers 
+
+✓ References if any 
+
+✓ Emergency Contact 
+
+✓ Medical Data 
+
+✓ Compliance & Disclosures 
+
+  ! : locator.count: Target page, context or browser has been closed
+
+✗ Family / Nominee Details page.waitForTimeout: Target page, context or browser has been closed
+
+✗ Identification Details - Linkage locator.count: Target page, context or browser has been closed
+
+✗ Relative Information locator.count: Target page, context or browser has been closed
+
+✗ Statutory Form locator.count: Target page, context or browser has been closed
+
+✗ Other documents locator.count: Target page, context or browser has been closed
+
+✗ Photo Upload locator.waitFor: Target crashed 
+
+✗ Personal Information locator.waitFor: Target crashed 
+
+✗ Achievements locator.waitFor: Target crashed 
+
+✗ Driving Licence locator.waitFor: Target crashed 
+
+  1) [chromium] › tests\post-offer\post-offer-docs.spec.ts:13:9 › Post-offer document filling › should be able to fill every visible section and submit the documents 
+
+    Error: worker process exited unexpectedly (code=143, signal=null)
+
+    Error Context: test-results\post-offer-post-offer-docs-e10cd-on-and-submit-the-documents-chromium\error-context.md
+
+
+  1 failed
+    [chromium] › tests\post-offer\post-offer-docs.spec.ts:13:9 › Post-offer document filling › should be able to fill every visible section and submit the documents 
