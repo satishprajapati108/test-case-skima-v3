@@ -2,6 +2,7 @@ import { chromium, Locator, Page, BrowserContext } from '@playwright/test';
 import * as fs from 'fs';
 import * as path from 'path';
 import { BasePage } from '../base.page';
+import { testData } from '../../helpers/test-data';
 
 /** Result of filling one section card. */
 export interface SectionResult {
@@ -11,9 +12,11 @@ export interface SectionResult {
 }
 
 const DOCS_DIR = path.resolve(__dirname, '../../fixtures/sample-docs');
-const EMAIL = 'satish.prajapati@skima.ai';
 
-/** Labels answered "No" (disclosures / negative questions); every other yes/no question gets "Yes". */
+/** Values left behind by older runs of this script - overwritten with fresh data instead of being treated as "already filled". */
+const STALE_VALUES = ['Test', 'Test Corp Pvt Ltd', 'Test Person', '12345', 'ABCDE1234F', '9876543210', '234567890124', '100123456789', 'A1234567', 'MH1420110062821'];
+
+/** Labels that are disclosures / negative questions: answered "No" most of the time. Other yes/no questions are random. */
 const NO_RADIO = /disabled|legal|case|member of|previously worked|currently hold|worked outside|relative|vendor|dependent/i;
 
 export class PostOfferDocsFlow extends BasePage {
@@ -94,36 +97,7 @@ export class PostOfferDocsFlow extends BasePage {
 
     // Value rules
     private valueFor(label: string, type: string): string {
-        const l = label.toLowerCase();
-        if (/wage|amount|withdrawn/.test(l)) return '15000';
-        if (type === 'email' || /e-?mail/.test(l)) return EMAIL;
-        if (/landline/.test(l)) return '02012345678';
-        if (/mobile|phone|contact no|contact number/.test(l)) return '9876543210';
-        if (/pan no|pan number/.test(l)) return 'ABCDE1234F';
-        if (/aadhaar|aadhar/.test(l) && /name/.test(l)) return 'Satish Prem Prajapati';
-        if (/aadhaar|aadhar/.test(l)) return '234567890124';
-        if (/name as/.test(l)) return 'Satish Prem Prajapati';
-        if (/name/.test(l) && /passport/.test(l)) return 'Satish Prem Prajapati';
-        if (/passport/.test(l)) return 'A1234567';
-        if (/uan/.test(l)) return '100123456789';
-        if (/licen[cs]e|dl no/.test(l)) return 'MH1420110062821';
-        if (/pin ?code|zip|postal/.test(l)) return '411001';
-        if (/house|building|floor|address/.test(l)) return 'Flat 101, Test Residency';
-        if (/area|locality|street/.test(l)) return 'Baner';
-        if (/landmark/.test(l)) return 'Near Test Mall';
-        if (/relationship|relation/.test(l)) return 'Brother';
-        if (/designation|role|position/.test(l)) return 'Manager';
-        if (/company|college|organi[sz]ation|employer|institution|university|school/.test(l)) return 'Test Corp Pvt Ltd';
-        if (/percent|cgpa|marks|grade|score/.test(l)) return '85';
-        if (/year/.test(l)) return '2020';
-        if (/height/.test(l)) return '175';
-        if (/weight/.test(l)) return '70';
-        if (/power/.test(l)) return '0.5';
-        if (/salary|ctc|income/.test(l)) return '500000';
-        if (/name/.test(l)) return 'Test Person';
-        if (/city|town/.test(l)) return 'Pune';
-        if (/number|no\b|no\./.test(l) || type === 'number') return '12345';
-        return 'Test';
+        return testData.valueFor(label, type);
     }
 
     // Generic field filler
@@ -141,11 +115,16 @@ export class PostOfferDocsFlow extends BasePage {
             await this.page.keyboard.press('Escape');
             return false;
         }
-        // Keyboard pick is more reliable than clicking the option (no viewport / overlay issues).
-        await this.page.keyboard.press('ArrowDown');
-        await this.page.keyboard.press('Enter');
+        // Random option each run so every dropdown value gets covered over time.
+        const options = this.page.locator('.ant-select-dropdown:not(.ant-select-dropdown-hidden) .ant-select-item-option:not(.ant-select-item-option-disabled)');
+        const n = await options.count();
+        const target = options.nth(n > 1 ? testData.int(0, n - 1) : 0);
+        await target.scrollIntoViewIfNeeded().catch(() => { });
+        await target.click({ timeout: 3000, force: true }).catch(() => { });
         if (!(await group.locator('.ant-select-selection-item').count())) {
-            await option.click({ timeout: 3000, force: true }).catch(() => { });
+            // fallback: keyboard pick
+            await this.page.keyboard.press('ArrowDown');
+            await this.page.keyboard.press('Enter');
         }
         await this.page.keyboard.press('Escape');
         return !!(await group.locator('.ant-select-selection-item').count());
@@ -160,10 +139,10 @@ export class PostOfferDocsFlow extends BasePage {
         for (let i = 0; i < count; i++) {
             texts.push((await radios.nth(i).evaluate((e: any) => (e.closest('label') as any)?.innerText || e.parentElement?.parentElement?.innerText || '')).trim());
         }
-        const wantNo = NO_RADIO.test(label);
-        let idx = texts.findIndex(t => /fresher/i.test(t));
-        if (idx < 0) idx = texts.findIndex(t => /father/i.test(t));
-        if (idx < 0) idx = texts.findIndex(t => (wantNo ? /^no/i : /^yes/i).test(t));
+        // Disclosure questions: "No" 85% of the time. Other Yes/No questions: random. Multi-option radios: random option.
+        const wantNo = NO_RADIO.test(label) ? testData.rnd() < 0.85 : testData.rnd() < 0.4;
+        const isYesNo = texts.some(t => /^yes/i.test(t)) && texts.some(t => /^no/i.test(t));
+        let idx = isYesNo ? texts.findIndex(t => (wantNo ? /^no/i : /^yes/i).test(t)) : testData.int(0, count - 1);
         if (idx < 0) idx = 0;
         await radios.nth(idx).evaluate((e: any) => ((e.closest('label') as any) ?? e).click());
         return true;
@@ -217,14 +196,13 @@ export class PostOfferDocsFlow extends BasePage {
                 const input = group.locator('textarea, input:not([type=hidden]):not([type=search]):not([type=file])').first();
                 if (!(await input.count())) continue;
                 const current = await input.inputValue();
-                const looksWrong = ['Test', 'Test Corp Pvt Ltd'].includes(current)
-                    || (/name/i.test(label) && /passport/i.test(label) && current === 'A1234567');
+                const looksWrong = STALE_VALUES.includes(current);
                 if (current && !looksWrong) continue;
                 const placeholder = (await input.getAttribute('placeholder')) || '';
                 const type = (await input.getAttribute('type')) || 'text';
                 if (/date/i.test(placeholder) || /\bdate\b/i.test(label)) {
                     await input.click();
-                    await input.fill(/valid|expir|till|\bto\b/i.test(label) ? '2032-01-15' : '2020-01-15');
+                    await input.fill(testData.dateFor(label));
                     await this.page.keyboard.press('Enter');
                     await this.page.keyboard.press('Escape');
                 } else {
